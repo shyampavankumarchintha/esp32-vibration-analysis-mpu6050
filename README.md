@@ -41,12 +41,26 @@ This project detects abnormal vibrations using the MPU6050 sensor and ESP32. The
 
 ---
 
+## 📊 Visualization
+
+### Time Domain
+![Time Plot](time_plot.png)
+
+### Vibration Magnitude
+![Magnitude Plot](magnitude_plot.png)
+
+### Frequency Analysis (FFT)
+![FFT Plot](fft_plot.png)
+
 ## 📁 Files
 
 * `normal.csv` → Normal vibration data
 * `abnormal.csv` → Abnormal vibration data
 * `analysis.ipynb` → Python analysis code
 * `esp32_code.ino` → ESP32 sensor code
+* `time_plot.png → Time-domain comparison of normal vs abnormal vibration
+* `magnitude_plot.png → Combined vibration magnitude analysis
+* `fft_plot.png → Frequency-domain (FFT) analysis showing vibration differences
 
 ---
 
